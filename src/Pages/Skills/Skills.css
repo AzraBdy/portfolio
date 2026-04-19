@@ -194,6 +194,7 @@
 
   .skill-card {
     min-height: 200px;
+    margin-bottom:3%;
   }
 
   .skill-card__title {
@@ -210,6 +211,7 @@
 
   .skill-card {
     padding: 1.4rem 1.4rem 1.3rem;
+    margin-bottom:3%;
   }
 
   .skill-card__technology {
