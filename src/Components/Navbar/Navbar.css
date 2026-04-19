@@ -1,0 +1,96 @@
+.topTitle-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 1% 4%;
+  box-sizing: border-box;
+  min-height: 60px;
+  background-color: #08080881;
+border-bottom:1px solid rgba(255, 255, 255, 0.068);
+      background: url("../../Assets/contactbg.png");
+
+}
+
+.topTitle-lang {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.topTitle-hero {
+  flex: 1;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d5d5d5;
+  height: auto;
+
+
+}
+
+.topTitle-hero img {
+  max-height:10%; 
+  height: auto;
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+.topTitle-hero-h1 {
+  font-size: 12px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  color:#01cb66;
+  margin: 0;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.main-navbar {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item .nav-link {
+  text-decoration: none;
+  color:#d5d5d5;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform: lowercase;
+  transition: opacity 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .topTitle-div {
+    flex-direction: column; 
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .topTitle-lang, .topTitle-hero, .main-navbar {
+    flex: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-list {
+    gap: 15px;
+  }
+}

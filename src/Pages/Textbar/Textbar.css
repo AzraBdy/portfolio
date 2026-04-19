@@ -1,0 +1,39 @@
+.text-bar {
+  width: 100%;
+  background-color: #fcebd1;
+   color: #fe5944;;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 8px 0;
+  font-weight: 700;
+    font-family: "Providence Sans", sans-serif;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+
+
+}
+
+.text-bar-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scrollText 15s linear infinite;
+  font-size: clamp(12px, 1.5vw, 14px);
+}
+
+.ticker-group{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.ticker-group span{
+     padding-right: 20px;
+  white-space: nowrap;
+}
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

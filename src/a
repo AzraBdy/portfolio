@@ -1,0 +1,75 @@
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { GrLanguage } from "react-icons/gr";
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { TfiWorld } from "react-icons/tfi";
+import { GiWorld } from "react-icons/gi";
+
+import '../.././index.css';
+
+import { useState, useRef, useEffect } from "react";
+
+const languages = ["English", "Türkçe"];
+
+export default function LanguageDropdown() {
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState("Language");
+  const menuRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  return (
+    <div className="relative inline-block text-left" ref={menuRef}>
+      {/* Button */}
+      <button
+        onClick={() => setOpen(!open)}
+        className="inline-flex items-center gap-2 rounded-lg bg-gray-800 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
+      >
+        {selected}
+        <svg
+          className={`h-4 w-4 transition-transform ${
+            open ? "rotate-180" : ""
+          }`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </button>
+
+      {/* Dropdown */}
+      {open && (
+        <div className="absolute right-0 z-10 mt-2 w-36 rounded-lg bg-white shadow-lg ring-1 ring-black/5">
+          <ul className="py-1 text-sm text-gray-700">
+            {languages.map((lang) => (
+              <li key={lang}>
+                <button
+                  onClick={() => {
+                    setSelected(lang);
+                    setOpen(false);
+                  }}
+                  className="block w-full px-4 py-2 text-left hover:bg-gray-100"
+                >
+                  {lang}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}

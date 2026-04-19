@@ -1,0 +1,220 @@
+#education {
+  background-color: #0a0b0a;
+  padding: 3% 2% ;
+}
+
+
+
+
+
+.edu-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding:2% 10%;
+
+
+}
+
+.edu-heading{
+  font-size: 4rem;
+  margin: 0 0 0.2rem;
+  color: #e7e7e763;
+  font-weight: bold;
+  letter-spacing: -3.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+
+.edu-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.edu-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6rem;
+  font-weight: 800;
+  justify-content: center;
+  
+  color: #049652;
+  letter-spacing: -3px;
+  line-height: 0.95;
+}
+
+.edu-subtext {
+  font-family: "Mulish", "DM Sans", sans-serif;
+  font-size: 12px;
+  color: #6d6c6c;
+  line-height: 1.7;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.edu-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.edu-card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: #0e0e0e;
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--accent, #2e5286) 5px 5px 0 0;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.edu-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--accent, #2e5286) 5px 8px 0 0;
+}
+
+.edu-card-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  gap: 1.5rem;
+  min-width: 110px;
+  background-color: rgba(12, 12, 12, 0.02);
+}
+
+.edu-card-number {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 1;
+  opacity: 0.35;
+}
+
+.edu-techs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.edu-tech {
+  font-family: "Mulish", "DM Sans", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 10px;
+  border: 1.5px solid;
+  border-radius: 100px;
+  white-space: nowrap;
+  background: #0e0e0e;
+  backdrop-filter: blur(4px);
+}
+
+.edu-card-divider {
+  width: 2px;
+  opacity: 0.18;
+  flex-shrink: 0;
+  margin: 1.5rem 0;
+  border-radius: 2px;
+}
+
+.edu-card-body {
+  flex: 1;
+  padding: 2rem 2.5rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.edu-card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin: 0;
+  line-height: 1.2;
+}
+.edu-card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.02rem;
+  color: #6d6c6c;
+  line-height: 1.8;
+  text-align:justify;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #education {
+    padding: 8% 6% 10%;
+  }
+
+  .edu-card {
+    flex-direction: column;
+  }
+
+  .edu-card-side {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.2rem 1.5rem;
+    min-width: unset;
+    gap: 1rem;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.06);
+  }
+
+  .edu-card-number {
+    font-size: 2rem;
+  }
+
+  .edu-techs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .edu-card-divider {
+    display: none;
+  }
+
+  .edu-card-body {
+    padding: 1.5rem;
+  }
+
+  .edu-header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .edu-title {
+    letter-spacing: -1.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .edu-card-body {
+    padding: 1.2rem;
+  }
+
+  .edu-card-text {
+    font-size: 0.87rem;
+  }
+
+  .edu-tech {
+    font-size: 0.66rem;
+    padding: 4px 8px;
+  }
+}
