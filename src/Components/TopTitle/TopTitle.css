@@ -9,6 +9,13 @@
     
 }
 
+.topTitle-lang {
+  position: relative;
+  z-index: 999;     
+  min-width: 50px;   
+  min-height: 20px;
+}
+
 
 .topTitle-hero img{
     width:15%;

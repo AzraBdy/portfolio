@@ -194,12 +194,15 @@
 
   .skill-card {
     min-height: 200px;
-    margin-bottom:3%;
   }
 
   .skill-card__title {
     font-size: 1.45rem;
     letter-spacing: -0.8px;
+  }
+   .skill-card__technologies {
+   
+    padding-bottom:3%;
   }
 }
 
@@ -217,5 +220,10 @@
   .skill-card__technology {
     font-size: 0.65rem;
     padding: 4px 10px;
+  }
+
+   .skill-card__technologies {
+   
+    padding-bottom:2%;
   }
 }

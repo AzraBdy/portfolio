@@ -84,12 +84,10 @@ border-bottom:1px solid rgba(255, 255, 255, 0.068);
     padding: 20px 0;
   }
 
-  .topTitle-lang, .topTitle-hero, .main-navbar {
-    flex: none;
-    justify-content: center;
-    width: 100%;
+  .topTitle-hero{
+    display: none;
   }
-
+  
   .nav-list {
     gap: 15px;
   }

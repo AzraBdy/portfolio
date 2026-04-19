@@ -186,7 +186,7 @@
 @media (max-width: 768px) {
   .footer-section {
     padding: 8% 6% 4%;
-    
+    padding-top:5%;
   }
 
   .footer-title {
@@ -213,6 +213,9 @@
     align-items: flex-start;
     gap: 0.8rem;
   }
+    .footer-contact-heading{
+    text-align: left;
+  }
 }
 
 @media (max-width: 480px) {
@@ -225,6 +228,9 @@
     font-size: 1rem;
   }
 
+  .footer-contact-heading{
+    text-align: left;
+  }
   .footer-link {
     font-size: 0.88rem;
   }
