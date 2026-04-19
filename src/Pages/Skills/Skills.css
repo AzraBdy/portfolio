@@ -1,6 +1,6 @@
 #skills-section {
   background-color: #0a0b0a;
-;
+
   font-family: 'Montserrat', sans-serif;
   padding: 3% 10%;
   padding-bottom:7%;
@@ -169,12 +169,14 @@
     font-size: 3.8rem;
     letter-spacing: -2.5px;
   }
+
 }
 
 @media (max-width: 768px) {
-  #skills-section {
-    padding: 3rem 1.5rem 5rem;
-  }
+ #skills-section {
+  padding-bottom:30%;
+
+}
 
   .skills-text-div {
     flex-direction: column;
@@ -190,10 +192,13 @@
 
   .skills-grid {
     grid-template-columns: 1fr;
+        margin-bottom:30%;
+
   }
 
   .skill-card {
-    min-height: 200px;
+    min-height: 300px;
+    margin-bottom:20%;
   }
 
   .skill-card__title {
