@@ -69,7 +69,8 @@ const Home = ({t, setLang}) => {
 
           <div className="home-cv-row reveal">
             <a
-               href= {process.env.PUBLIC_URL +'/AzraBADAY-CV(EN).pdf'}
+               href= {process.env.PUBLIC_URL +'/cv-en.pdf'}
+               rel="noopener noreferrer"
               target="_blank"
               className="cv-btn cv-btn--primary"
             >
@@ -77,8 +78,8 @@ const Home = ({t, setLang}) => {
               <span className="cv-arrow">↗</span>
             </a>
             <a
-               href= {process.env.PUBLIC_URL +'/AzraBADAY-CV(TR).pdf'}
-              href="/AzraBADAY-CV(TR).pdf"
+               href= {process.env.PUBLIC_URL +'/cv-tr.pdf'}
+               rel="noopener noreferrer"
               target="_blank"
               className="cv-btn cv-btn--secondary"
             >
