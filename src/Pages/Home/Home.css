@@ -394,6 +394,16 @@
   .scroll-hint {
     display: none;
   }
+
+  .home-tagline.reveal{
+    padding:2%;
+    font-size:11px;
+  }
+  .home-bio.reveal{
+    font-size:12px;
+    padding:2%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {

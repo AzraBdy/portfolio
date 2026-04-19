@@ -8,7 +8,7 @@ export const translations = {
       home: {
       text1: "Welcome to my website — if you don't want to waste your time, reach me directly through my socials below.",
       text2: "Set to graduate in MIS by Summer 2026, I am an early-career professional open to diverse roles in the industry. Scroll down to explore my journey or check out my CV via the buttons below.",
-      subtext1:"Available for hire · Summer 2026 - MIS",
+      subtext1:"Available for hire · Summer 2026 ",
       subtext2:"Software Developer",
     },
     about: {
@@ -97,7 +97,7 @@ export const translations = {
       home: {
       text1: "Hoş geldiniz — eğer zamanınınızı harcamak istemiyorsanız, aşağıdaki sosyal medya hesaplarımdan doğrudan bana ulaşabilirsiniz.",
       text2:" 2026 yazında Yönetim Bilişim Sistemleri (MIS) bölümünden mezun oluyorum. Kariyerimin başındayım ve sektörde farklı alanlarda kendimi geliştirebileceğim fırsatlara açığım. Neler yaptığımı görmek için aşağı kaydırabilir ya da aşağıdaki butonlardan CV’me göz atabilirsiniz.",
-      subtext1:"İşe alıma açık · Yaz 2026 - YBS",
+      subtext1:"İşe alıma açık · Yaz 2026",
       subtext2:"Yazılım Geliştirici",
     },
     about: {
@@ -117,7 +117,7 @@ export const translations = {
         titleEx2: "Lime Teknoloji",
         titleEx3: "Yazılım Geliştirme Stajyeri · Kısa-Dönem",
         subtitleEx1: "Front-end Geliştirme Stajyeri",
-        subtextEx1: "Staj dönemim boyunca ağırlıklı olarak Frontend geliştirme süreçlerine odaklanarak, React yaşam döngüsü ve modern JavaScript mimarileri üzerinde derinlemesine bir çalışma disiplini kazandım. Bu süreçte, mentorluk desteğiyle birlikte OpenAI ve Gemma 3 gibi büyük dil modellerini (LLM) temel alan interaktif bir chatbot sistemi geliştirdim. Ayrıca, WebSocket teknolojisini kullanarak gerçek zamanlı bir müşteri hizmetleri paneli kurguladım ve karmaşık API entegrasyonlarını başarıyla tamamlayarak dinamik veri yönetiminde aktif rol aldım",
+        subtextEx1: "Staj dönemim boyunca ağırlıklı olarak Frontend geliştirme süreçlerine odaklanarak, React yaşam döngüsü ve modern JavaScript mimarileri üzerinde derinlemesine bir çalışma disiplini kazandım. Bu süreçte, mentorluk desteğiyle birlikte OpenAI ve Gemma 3 gibi büyük dil modellerini (LLM) temel alan interaktif bir chatbot sistemi geliştirdim. Ayrıca, WebSocket teknolojisini kullanarak gerçek zamanlı bir müşteri hizmetleri paneli kurguladım ve karmaşık API entegrasyonlarını başarıyla tamamlayarak dinamik veri yönetiminde aktif rol aldım.",
         subtextEx2: "Bir yazılımın yalnızca kodunu yazmanın ötesinde, bir sistemin hangi ihtiyaçlara sahip olduğunu analiz etme ve kullanıcı odaklı arayüzler tasarlama konusunda deneyim kazandım. Bununla birlikte, tüm bu süreçleri bir ekip içerisinde yürütme ve iş birliği içinde çalışma tecrübesi edindim.",
 
           langTitle:"Yabancı Diller",

@@ -376,4 +376,9 @@ color: #9AB17A;
     font-size: clamp(4rem, 18vw, 6rem);
     letter-spacing: -2px;
   }
+  .ab-bio-body {
+
+  text-align: justify;
+}
+
 }
