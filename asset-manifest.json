@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6b5fbb0d.css",
+    "main.js": "/portfolio/static/js/main.f3f7dd4a.js",
+    "static/js/453.948cd175.chunk.js": "/portfolio/static/js/453.948cd175.chunk.js",
+    "static/media/r1.png": "/portfolio/static/media/r1.697c41cc23cfbeb99c9c.png",
+    "static/media/oto1.png": "/portfolio/static/media/oto1.b6a2fd2baffac1da15ff.png",
+    "static/media/canva.png": "/portfolio/static/media/canva.063142ff6d8e9598d37f.png",
+    "static/media/postman.png": "/portfolio/static/media/postman.cef8036db298b6193693.png",
+    "static/media/GomePixel-ARJd7.ttf": "/portfolio/static/media/GomePixel-ARJd7.a31d542c46df48302505.ttf",
+    "static/media/Providence Sans Regular.ttf": "/portfolio/static/media/Providence Sans Regular.4f39e567322cb4712a4e.ttf",
+    "static/media/aris.png": "/portfolio/static/media/aris.c8d933be2928e477ca5b.png",
+    "static/media/GlacialIndifference-Regular.otf": "/portfolio/static/media/GlacialIndifference-Regular.884dc679b35db5f785f2.otf",
+    "static/media/myself.jpg": "/portfolio/static/media/myself.f02c02416497888f4127.jpg",
+    "static/media/GlacialIndifference-Bold.otf": "/portfolio/static/media/GlacialIndifference-Bold.e742f534cb2ac8b560c6.otf",
+    "static/media/contactbg.png": "/portfolio/static/media/contactbg.ceb511bc00c8751611f7.png",
+    "static/media/logo3.png": "/portfolio/static/media/logo3.05e01579d1ed41fe37da.png",
+    "static/media/arena.png": "/portfolio/static/media/arena.7ddbdb705513a71db27d.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.6b5fbb0d.css.map": "/portfolio/static/css/main.6b5fbb0d.css.map",
+    "main.f3f7dd4a.js.map": "/portfolio/static/js/main.f3f7dd4a.js.map",
+    "453.948cd175.chunk.js.map": "/portfolio/static/js/453.948cd175.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b5fbb0d.css",
+    "static/js/main.f3f7dd4a.js"
+  ]
+}
