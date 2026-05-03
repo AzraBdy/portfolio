@@ -52,7 +52,6 @@ const TOOLS = [
     { src: aris, name: "Aris" },
   { src: figma, name: "Figma" },
   { src: canva, name: "Canva" },
-    { src: canva, name: "Canva" },
 
 ];
 

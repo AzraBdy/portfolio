@@ -17,15 +17,16 @@
 }
 
 .edu-heading{
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0 0 0.2rem;
   color: #e7e7e763;
   font-weight: bold;
-  letter-spacing: -3.8px;
+  letter-spacing: -1.8px;
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 1;
+  
 }
 
 

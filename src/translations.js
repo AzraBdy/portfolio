@@ -44,7 +44,7 @@ export const translations = {
       education:  {
 
 
-     title:"What did i study?",
+     title:"about my education",
      subtext:"I studied Management Information Systems. Throughout my academic career I received focused education on several key subject areas.",
  
      titleSw: "Software Development",
@@ -59,7 +59,7 @@ export const translations = {
     },
 
        skills:  {
-     title:"What do i do?",
+     title:"what do i do?",
      text:"you can also visit my github account but unfortunately i did'nt upload many of my projects.",
      
     subtitle1:"Full Stack Development",
