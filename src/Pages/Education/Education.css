@@ -1,6 +1,15 @@
 #education {
-  background-color: #0a0b0a;
-  padding: 3% 2% ;
+  padding: 3% 5% ;
+  
+  position: relative;
+  background-color: #070c1d;
+  min-height: 100vh;
+  overflow: hidden;
+
+   background-image:
+    linear-gradient(rgba(75, 75, 75, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(92, 92, 92, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
 }
 
 
@@ -12,20 +21,23 @@
   flex-direction: column;
   gap: 3rem;
   padding:2% 10%;
+  
 
 
 }
 
 .edu-heading{
   font-size: 3rem;
-  margin: 0 0 0.2rem;
-  color: #e7e7e763;
+  color: #F2E8BB;
   font-weight: bold;
-  letter-spacing: -1.8px;
+  letter-spacing: -1.2px;
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 1;
+    font-family: 'Gome Pixel';
+    
+
   
 }
 
@@ -37,11 +49,15 @@
   justify-items: center;
   justify-content: center;
   gap: 0.75rem;
+  border-bottom:1px solid  #d5d5d577;
+;
+padding:2% 5%;
+border-radius:50px;
+  
 }
 
 .edu-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 6rem;
+  font-family: 'Gome Pixel';
   font-weight: 800;
   justify-content: center;
   
@@ -52,7 +68,7 @@
 
 .edu-subtext {
   font-family: "Mulish", "DM Sans", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   color: #6d6c6c;
   line-height: 1.7;
   align-items: center;
@@ -69,12 +85,11 @@
 .edu-card {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
-  background: #0e0e0e;
-  border: 1px solid rgba(12, 12, 12, 0.1);
-  border-radius: 16px;
+  background-color: #050916;
+
+  align-items:center;
+  border: 3px solid rgba(12, 12, 12, 0.1);
   overflow: hidden;
-  box-shadow: var(--accent, #2e5286) 5px 5px 0 0;
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
@@ -113,15 +128,15 @@
 .edu-tech {
   font-family: "Mulish", "DM Sans", sans-serif;
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
   padding: 5px 10px;
-  border: 1.5px solid;
+  border: 2px solid;
   border-radius: 100px;
   white-space: nowrap;
-  background: #0e0e0e;
+   background-color: #f2e8bb25;;
   backdrop-filter: blur(4px);
 }
 
@@ -143,19 +158,20 @@
 
 .edu-card-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-size: clamp(1.6rem, 3vw, 1.2rem);
   font-weight: 800;
-  letter-spacing: -0.5px;
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.1;
+    letter-spacing: -1.4px;
+
 }
 .edu-card-text {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.02rem;
-  color: #6d6c6c;
-  line-height: 1.8;
-  text-align:justify;
-  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #d5d5d577;
+  line-height: 1.75;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {

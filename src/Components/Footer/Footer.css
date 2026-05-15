@@ -1,7 +1,11 @@
 .footer-section {
-  background-color:    #091c12;
+  background-color: #070c1d;
 
-;
+;  
+  background-image:
+    linear-gradient(rgba(182, 190, 105, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(205, 211, 125, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
   padding: 4% 8% 2%;
   display: flex;
   flex-direction: column;
@@ -16,8 +20,10 @@
   pointer-events: none;
 }
 
+
+
 .footer-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gome Pixel';
   font-size: clamp(2.5rem, 8vw, 4rem);
   font-weight: 800;
   color: #fafafa92;

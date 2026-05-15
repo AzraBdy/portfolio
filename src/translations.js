@@ -45,8 +45,7 @@ export const translations = {
 
 
      title:"about my education",
-     subtext:"I studied Management Information Systems. Throughout my academic career I received focused education on several key subject areas.",
- 
+subtext: "I studied Management Information Systems. In my department, education is provided in various areas, which I can generally group into three main categories: software development, systems analysis, and business and marketing analysis. Since I am still at the early stages of my career, I have not yet decided on a specific path. For this reason, I have tried to briefly summarize the areas I have studied below for those who are interested.",
      titleSw: "Software Development",
      textSw:"I gained both theoretical and practical knowledge of algorithm logic and programming languages such as C# and Python. I developed hands-on experience in writing efficient SQL queries, managing databases, and ensuring data integrity. In addition, I acquired skills in database optimization, performance improvement, and working with database management systems such as MSSQL and SQL Server, supporting reliable and scalable data-driven applications.",
 
@@ -66,14 +65,14 @@ export const translations = {
     subtext1:"I develop modern and user-focused full stack websites. I build interactive and visually appealing frontends with React, while ensuring secure, fast, and scalable backends using Node.js and database management. I manage projects end-to-end with a focus on delivering an excellent user experience.",
      subtitle2:"UX Design",
     subtext2:"I specialize in designing intuitive and user-centered digital experiences. Using UX principles and tools like Figma and Canva, I craft interfaces that are visually appealing, accessible, and easy to navigate. My approach involves understanding user behavior and continuously refining designs.",
-     subtitle3:"AI Development (Beginner)",
-    subtext3:"I am currently developing my skills in AI and machine learning, focusing on practical applications alongside academic research. I actively use AI tools and libraries in my thesis work and personal projects, gaining hands-on experience in problem-solving, data handling, and model implementation.",
-     subtitle4:"API Integration",
-    subtext4:"I recently started working in backend development and would consider myself a beginner in this area. However, I am actively expanding my knowledge through courses focused on API integrations and working on personal projects to build hands-on experience. Currently, my undergraduate thesis is serving as a key opportunity to deepen my skills and apply what I am learning in a real-world context.",
+     subtitle3:"AI Development (In Progress)",
+subtext3: "I am currently improving myself in AI and machine learning, focusing on practical applications and real-world problem solving. Alongside my full-stack development journey, I am actively working with LLM systems in my thesis project and continuously expanding my knowledge through trainings and hands-on development. Through both my thesis and personal projects, I gain experience in AI tools, model integration, data handling, and system development.",
+     subtitle4:"Cybersecurity (In Progress)",
+    subtext4: "I am currently improving myself in cybersecurity through a training program provided by the Technical Institute of America. I am actively studying secure software development and system security. In addition to basic security principles used in software applications (such as authentication and authorization), I believe modern systems require a more comprehensive security layer, so I have been focusing more on this area recently.",
       subtitle5:"Database Management",
-    subtext5:"I have experience in organizing, managing, and optimizing databases for web and desktop applications. I ensure data integrity, efficient query performance, and scalability while supporting complex business logic and growth requirements.",
-     subtitle6:"C# Form Applications",
-    subtext6:"I develop robust and functional desktop applications using C# and Windows Forms. My focus is on creating applications with clear, user-friendly interfaces and seamless functionality including data management, real-time updates, and automation.",
+    subtext5:"I have experience in organizing, managing, and optimizing databases for web and desktop applications. I ensure data integrity, efficient query performance, and scalability while supporting complex business logic and growth requirements. ",
+     subtitle6:".NET Desktop Solutions",
+    subtext6:"Developing functional desktop applications on the .NET platform. Focused on delivering user-friendly interfaces, seamless data synchronization, and efficient task automation. I have experience in .NET development using Windows Forms. During my studies, I developed automation systems such as a clinic counseling center appointment system and an accounting automation system for an art studio, focusing on practical business needs and user-friendly interfaces.",
 
 
 
@@ -132,7 +131,7 @@ export const translations = {
    education:  {
 
   title: "Ne üzerine eğitim aldım?",
-  subtext: "Yönetim Bilişim Sistemleri bölümünde okudum, bu süreç içeriside temel olarak birkaç farklı alan üzerine eğitim aldım.",
+  subtext: "Yönetim Bilişim Sistemleri bölümünde okudum, bölümümde farklı alanlarda eğitimler veriliyor. Bunları genel olarak yazılım geliştirme, sistem analizi, iş geliştirme ve pazarlama analizi şeklinde üç ana başlık altında toplayabilirim. Kariyerimin henüz başındayım ve şu an için kesin bir alan belirlemiş değilim. Bu nedenle ilgilenenler için aldığım eğitimleri aşağıda olabildiğince özetlemeye çalıştım.",
 
   titleSw: "Yazılım Geliştirme",
   textSw: "Algoritma mantığı ve C# ile Python gibi programlama dilleri konusunda hem teorik hem de pratik bilgi edindim. SQL sorgularını verimli bir şekilde yazma, veri tabanı yönetimi ve veri bütünlüğünü sağlama konularında uygulamalı deneyim kazandım. Ayrıca MSSQL ve SQL Server gibi veri tabanı yönetim sistemleriyle çalışarak veri tabanı optimizasyonu, performans iyileştirme ve ölçeklenebilir, veri odaklı uygulamalar geliştirme konularında yetkinlik kazandım.",
@@ -146,26 +145,25 @@ export const translations = {
 },
 
 skills: {
-  title: "Ne geliştiriyorum?",
+  title: "Neler üzerine çalışıyorum?",
   text: "GitHub sayfamı ziyaret edebilirsiniz, ancak birçok projemi henüz yükleme fırsatı bulamadım.",
 
   subtitle1: "Full Stack Geliştirme",
-  subtext1: "Modern ve kullanıcı odaklı full stack web uygulamaları geliştiriyorum. React ile etkileşimli ve görsel açıdan güçlü frontend arayüzler oluştururken, Node.js ve veri tabanı yönetimi ile güvenli, hızlı ve ölçeklenebilir backend yapıları geliştiriyorum. Kullanıcı deneyimini ön planda tutarak projeleri uçtan uca yönetiyorum.",
+  subtext1: "JS ekosistemini kullanarak modern ve kullanıcı odaklı full stack web uygulamaları geliştiriyorum. React ile etkileşimli ve görsel olarak güçlü arayüzler oluştururken, Node.js ve veritabanı yönetimi ile güvenli ve ölçeklenebilir backend yapıları geliştiriyorum. Kullanıcı deneyimini ön planda tutarak projeleri uçtan uca geliştirmeye çalışıyorum.",
 
   subtitle2: "UX Tasarım",
   subtext2: "Sezgisel ve kullanıcı odaklı dijital deneyimler tasarlama konusunda uzmanlaşıyorum. UX prensiplerini ve Figma, Canva gibi araçları kullanarak görsel açıdan güçlü, erişilebilir ve kolay kullanılabilir arayüzler tasarlıyorum. Kullanıcı davranışlarını analiz ederek tasarımları sürekli geliştiriyorum.",
 
-  subtitle3: "Yapay Zeka Geliştirme (Başlangıç Seviyesi)",
-  subtext3: "Yapay zeka ve makine öğrenmesi alanında kendimi geliştirmeye devam ediyorum. Akademik çalışmalarım ve kişisel projelerim kapsamında AI araçları ve kütüphanelerini aktif olarak kullanıyorum. Problem çözme, veri işleme ve model uygulama konularında pratik deneyim kazanıyorum.",
-
-  subtitle4: "API Entegrasyonu",
-  subtext4: "Backend geliştirme tarafına yeni başladım ve bu alanda kendimi başlangıç seviyesinde görüyorum. Ancak API entegrasyonları üzerine kurslarla bilgimi sürekli geliştiriyor ve kişisel projelerle pratik yapıyorum. Şu anda lisans bitirme tezim de bu alandaki becerilerimi geliştirmek için önemli bir fırsat sağlıyor.",
-
+  subtitle3: "Yapay Zeka Geliştirme (Eğitim Sürecinde)",
+subtext3: "Şu anda yapay zeka ve makine öğrenmesi alanında kendimi geliştirmeye devam ediyorum. Full-stack geliştirme sürecimin yanında, tez projemde aktif olarak LLM sistemleriyle çalışıyor ve bu alanda eğitimler alıyorum. Tezim ve kişisel projelerim sayesinde AI araçları, model entegrasyonu, veri işleme ve sistem geliştirme konularında uygulamalı deneyim kazanıyorum.",
+ 
+subtitle4: "Siber Güvenlik (Eğitim Sürecinde)",
+subtext4: "Technical Institute of America tarafından sunulan siber güvenlik eğitim programı ile bu alanda kendimi geliştirmeye devam ediyorum. Yazılım uygulamalarında kullanılan temel güvenlik prensiplerinin yanı sıra günümüz dünyasında daha kapsamlı bir güvenlik katmanına ihtiyaç duyulduğunu düşünüyorum ve bu nedenle son zamanlarda bu alana daha fazla yoğunlaşmaya çalışıyorum.",
   subtitle5: "Veri Tabanı Yönetimi",
   subtext5: "Web ve masaüstü uygulamaları için veritabanı oluşturma, yönetme ve optimize etme konusunda deneyimim var. Veri bütünlüğünü koruyarak, sorgu performansını iyileştiriyor ve ölçeklenebilir sistemler için altyapı geliştiriyorum.",
 
-  subtitle6: "C# Form Uygulamaları",
-  subtext6: "C# ve Windows Forms kullanarak fonksiyonel masaüstü uygulamaları geliştiriyorum. Kullanıcı dostu arayüzler oluşturmanın yanı sıra veri yönetimi, gerçek zamanlı güncellemeler ve otomasyon içeren uygulamalara odaklanıyorum."
+  subtitle6: ".NET Geliştirme",
+  subtext6: ".NET platformu üzerinde fonksiyonel masaüstü yazılımları geliştiriyorum. Veri yönetimi, otomasyon ve gerçek zamanlı güncellemeler içeren, kullanıcı ihtiyaçlarına göre optimize edilmiş masaüstü çözümleri üzerine çalışıyorum. Akademik sürecimde, bir klinik danışmanlık merkezi için randevu sistemi ve bir sanat stüdyosu için muhasebe takip otomasyonu tasarlayıp hayata geçirdim."
 },
 
     footer:  {

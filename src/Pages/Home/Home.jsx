@@ -31,7 +31,7 @@ const Home = ({t, setLang}) => {
 
   return (
     <div className="home-section">
-
+    
       <div className="grain-overlay" aria-hidden="true" />
 
       <div className="deco-line" aria-hidden="true" />
@@ -94,6 +94,7 @@ const Home = ({t, setLang}) => {
       
 
       <div className="home-footer-bar reveal">
+        
         <div className="home-social-row">
           <a
             href="https://www.linkedin.com/in/azrabaday"

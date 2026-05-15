@@ -1,6 +1,5 @@
 import React, {useState, useRef} from 'react'
-import react from "../../Assets/r1.png"
-import clinic from "../../Assets/oto1.png"
+
 import Github from "../../Components/Github/Github.jsx"
 import "./Skills.css"
 
@@ -20,7 +19,6 @@ const skillcards = [
     title: t.skills.subtitle1,
     text: t.skills.subtext1,
     technologies: ["React.js", "Node.js", "Express.js"],
-    img: react,
     color:"#2e5286",
   },
   {
@@ -40,8 +38,7 @@ const skillcards = [
   {
     title: t.skills.subtitle4,
     text: t.skills.subtext4,
-    technologies: ["REST", "JWT", "Postman"],
-    img: clinic,
+    technologies: ["Metasploit", "JWT", "Linux"],
     color:"#8E7DBE",
   },
   {
@@ -54,8 +51,7 @@ title: t.skills.subtitle5,
   {
 title: t.skills.subtitle6,
     text: t.skills.subtext6,
-    technologies: [".NET"],
-    img: clinic,
+    technologies: ["C#"],
     accent:"#E36A6A",
 
   },
@@ -87,6 +83,8 @@ const SkillsCard = ({ title, text, technologies, img, index }) => {
 
   return (
     <section id="skills-section">
+      <div className="skills-grain-overlay" aria-hidden="true" />
+
       <div className="skills-text-div">
         <div className="skills-heading-div">
           <p className="skills-heading">{t.skills.title}</p>
@@ -94,9 +92,7 @@ const SkillsCard = ({ title, text, technologies, img, index }) => {
             {t.skills.text}
           </p>
         </div>
-       {/* <div className="skills-github">
-          <Github />
-        </div>*/}
+       
       </div>
 
       <div className="skills-grid">

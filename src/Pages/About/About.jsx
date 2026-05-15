@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../Assets/myself.jpg";
+import logo from "../../Assets/myself.png";
 import react from "../../Assets/react.png";
 import arena from "../../Assets/arena.png";
 import excel from "../../Assets/excel.png";

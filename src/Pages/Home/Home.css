@@ -31,7 +31,10 @@
 .home-section {
   position: relative;
   min-height: 100vh;
-  background-color: #080808;
+  background-color: #070c1d;
+ background-image: url("../../Assets/bg.gif");
+ 
+ background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -39,12 +42,15 @@
   overflow: hidden;
 }
 
+
+
 .grain-overlay {
   pointer-events: none;
+  
   position: absolute;
   inset: 0;
   z-index: 0;
-  opacity: 0.045;
+  opacity: 0.085;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   background-size: 200px 200px;
 }
@@ -74,7 +80,7 @@
   font-family: 'Space Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.08em;
-  color: #ffffff55;
+  color: #01cb66;
   text-transform: uppercase;
   padding-bottom: 2rem;
   border-bottom: 1px solid #ffffff0d;
@@ -108,11 +114,26 @@
   gap: 4%;
   padding: 2.5rem 0;
   flex: 1;
+
+    background: rgba(9, 15, 39, 0.28);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  border-radius: 32px;
+
+  padding: 2rem;
+
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.35);
 }
 
 .home-title-wrap {
   position: relative;
 }
+
 
 .home-mega-title {
   font-family: "Mulish", sans-serif;
@@ -139,17 +160,18 @@
 }
 
 .home-title-wrap:hover .title-folio {
-  -webkit-text-stroke: 1.5px #01cb668a;
+  -webkit-text-stroke: 1.5px #E4625D;
 }
 
 .title-badge {
   display: inline-flex;
   align-items: center;
+  border-radius:10px;
   gap: 8px;
   margin-top: 1.5rem;
   padding: 8px 18px;
   border: 1px solid #ffffff18;
-  font-family: 'Space Mono', monospace;
+ font-family:'Gome Pixel';
   font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -160,13 +182,15 @@
   transition: border-color 0.3s, color 0.3s;
 }
 
+
+
 .title-badge:hover {
-  border-color: #01cb663f;
-  color: #01cb66;
+  border-color: #a84845;
+  color: #E4625D;
 }
 
 .title-badge span:first-child {
-  color: #01cb66;
+  color: #E4625D;
   font-size: 10px;
 }
 
@@ -208,38 +232,36 @@
 }
 
 .cv-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 28px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-decoration: none;
+ background-color: #557d9f;
+ padding: 1% 10%;
+  border: 2px solid #3f3422;
+  border-radius: 10px;
+  color: #f3ebdf;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
   cursor: pointer;
-  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-  position: relative;
-  overflow: hidden;
+  transition: all 150ms;
+  box-shadow: 4px 4px 0 0 #dddbc1;
+  margin-bottom: 1rem;
 }
 
 .cv-btn::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  transform: translateX(-101%);
-  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  opacity: 0.9;
+  transform: translateY(-3px);
 }
 
 .cv-btn:hover::before {
   transform: translateX(0);
+    transform: translateY(-2px);
+
 }
 
 .cv-btn--primary {
-  background: #01cb6688;
+  background: #E4625D;
   color: #ffffff;
-  border: 1px solid #01cb6656;
-  border-radius: 20px;
+  border: 1px solid #ce5854;
 }
 
 .cv-btn--primary::before {
@@ -248,14 +270,13 @@
 
 .cv-btn--primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px #01cb6641;
+  border-color: #ffffff44;
 }
 
 .cv-btn--secondary {
-  background: transparent;
+  background: #090F27;
   color: #d5d5d5;
   border: 1px solid #ffffff22;
-    border-radius: 20px;
 
 }
 
@@ -300,7 +321,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #ffffff44;
+  color: #ffffff7e;
   text-decoration: none;
   font-family: 'Space Mono', monospace;
   font-size: 11px;
@@ -315,7 +336,7 @@
 }
 
 .social-link:hover {
-  color: #01cb668a;
+  color: #E4625D;
 }
 
 .social-link:hover svg {
@@ -349,7 +370,7 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background: #01cb66;
+  background: #E4625D;
   animation: scanline 2.5s ease-in-out infinite;
 }
 

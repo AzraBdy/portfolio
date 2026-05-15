@@ -14,6 +14,8 @@ export default function Footer({ t, setLang }) {
 
   return (
     <section id="footer-section">
+      <div className="ab-grain" aria-hidden="true" />
+
     <footer className="footer-section">
 
       <h1 className="footer-title">{t.footer.title}</h1>

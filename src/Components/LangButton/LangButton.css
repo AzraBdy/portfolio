@@ -55,7 +55,7 @@
 
 .lang-btn:hover{
 background: rgb(20, 20, 20);
-  color:#01cb66;
+  color:#E4625D;
   transition: background 0.2s, color 0.2s, transform 0.15s;
 
 
@@ -64,7 +64,7 @@ background: rgb(20, 20, 20);
 
 .lang-menu button:hover {
   background: white;
-  color:#01cb66;
+  color:#E4625D;
     transition: transform 0.2s ease;
 
 }

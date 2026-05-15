@@ -15,7 +15,7 @@ const cards = [
     number: "01",
     title: t.education.titleSw,
     text: t.education.textSw,
-    accent: "#2e5286",
+    accent: "#E4625D",
     techs: ["Algorithm", "C#", "Python", "SQL"],
   },
   {
@@ -39,6 +39,8 @@ const cards = [
 
   return (
     <section id="education">
+            <div className="ab-grain" aria-hidden="true" />
+
       <div className="edu-wrapper">
 
         <div className="edu-header">

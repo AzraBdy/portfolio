@@ -30,9 +30,19 @@
 
 #about-section {
   position: relative;
-  background-color: #080808;
+  background-color: #070c1d;
   min-height: 100vh;
   overflow: hidden;
+
+   background-image:
+    linear-gradient(rgba(75, 75, 75, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(92, 92, 92, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+
+  
+
+
+
 }
 
 .ab-grain {
@@ -116,10 +126,13 @@ color: #9AB17A;
   display: flex;
   align-items: center;
   gap: 3rem;
-  background: #0e0e0e;
-  border: 1px solid #ffffff0d;
-  padding: 2rem 2.5rem;
+  background-color: #050916;
+ 
+    padding: 2rem 2.5rem;
 }
+
+
+
 
 .ab-avatar {
   width: 90px;
@@ -136,6 +149,7 @@ color: #9AB17A;
   font-size: 2rem;
   letter-spacing: 2px;
   color: #e8e8e8;
+  
   margin-bottom: 0.6rem;
 }
 
@@ -155,7 +169,7 @@ color: #9AB17A;
 }
 
 .ab-card {
-  background: #0e0e0e;
+  background-color: #050916;
   border: 1px solid #ffffff0d;
   padding: 2rem 2.25rem;
   position: relative;
@@ -241,7 +255,7 @@ color: #9AB17A;
 }
 
 .ab-skill-card {
-  background: #0e0e0e;
+  background-color: #050916;
   border: 1px solid #ffffff0d;
   padding: 2rem 2.25rem;
   display: flex;
@@ -298,7 +312,7 @@ color: #9AB17A;
 }
 
 .ab-tools-section {
-  background: #0e0e0e;
+  background-color: #070c1d;
   border: 1px solid #ffffff0d;
   padding: 2rem 2.25rem;
 }
@@ -317,7 +331,7 @@ color: #9AB17A;
   gap: 8px;
   padding: 1rem 0.5rem;
   border: 1px solid #ffffff08;
-  background: #131313;
+  background-color: #050916;
   transition: border-color 0.25s ease, transform 0.25s ease;
   cursor: default;
 }
